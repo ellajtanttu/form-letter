@@ -1,6 +1,6 @@
-# _PROJECT NAME_
+# _Form Letter_
 
-#### _EPICODUS PRACTICE: Sample one-sentence description_
+#### _EPICODUS PRACTICE: lesson 2.42 user inputted name returns a letter addressed to them_
 
 #### By _**Ella Tanttu**_
 
@@ -14,15 +14,15 @@
 
 ## Description
 
-_{Detailed description that explains the project and what concepts were being practiced.}_
+_{Assignment: Make a form letter where the user inputs their name, and they get back a letter addressed to them. Feel free to use lorum ipsum for the text of the letter. Use Bootstrap and your knowledge of CSS to make the letter look like a letter or virtual postcard.}_
 
 ## Setup/Installation Requirements
 
-* _Navigate to https://github.com/url-path in your browser_
+* _Navigate to https://github.com/ellajtanttu/form-letter in your browser_
 * _Clone this repository to your desktop_
 * _Navigate to the top level of the directory_
 * _Connect to your github repository_
-* _open DIRECTORYNAME/index.html in your browser_
+* _open formLetter/index.html in your browser_
 * _Open index.html and styles.css in VS Code to edit_
 
 ## Known Bugs

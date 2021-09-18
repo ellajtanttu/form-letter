@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>EJT Form Letter</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="introText">
+      <h1>Personalized Postcard</h1>
+      <p>Make a postcard personalized just for you by filling in and submitting the form below:</p>
+      <form id="userInfo">
+
+        <div class="form-group">
+          <label for="yourFName">Your first name</label>
+          <input id="yourFName" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="yourLName">Your last name</label>
+          <input id="yourLName" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="streetAddress">Your street address</label>
+          <input id="streetAddress" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="citySZ">Your city, state, and zip</label>
+          <input id="citySZ" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn btn-warning">See Postcard!</button>
+
+      </form>
+    </div>
+
+    <div class="postcard">
+      <div class="row" id="rowFront">
+        <img class="cardFront"
+          src="https://www.gonext.com/wp-content/uploads/2019/10/Portland-Oregon_iS_994318522_web.jpg"
+          alt="portland skyline at sunset">
+      </div>
+      <div class="row" id="rowBack">
+        <div class="col" id="left">
+          <p>Dear <span class="fName"></span>,<br>
+            Curabitur hendrerit feugiat sollicitudin. Cras fermentum, augue sollicitudin ullamcorper tempus, enim magna
+            placerat massa, et sollicitudin ante urna nec augue. Proin a viverra libero. Pellentesque tincidunt mollis
+            ligula ac fringilla. Nulla vitae rutrum odio, ac tempor mauris.<br>
+            Sincerely,<br>
+            -Me</p>
+        </div>
+        <div class="col" id="right">
+
+          <div class="divAddress">
+            <p class="address"><span class="fName">Hermione</span> <span class="lName">Granger</span><br>
+              <span class="street">#4 Privet Drive</span><br>
+              <span class="cityStateZip">Somewhere, OR 97324</span>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

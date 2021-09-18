@@ -1,0 +1,45 @@
+.container {
+  max-width: 600px;
+}
+
+.cardFront {
+  max-width: 500px;
+}
+
+.introText {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 45px;
+}
+.row {
+  margin: 35px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #FFCD01;
+  text-align: center;
+}
+.col#left{
+  padding-top: 35px;
+} 
+.col#right {
+  padding-bottom: 35px;
+} 
+
+/* .address {
+  vertical-align: middle;
+  padding-top: 35px;
+  padding-bottom: 35px;
+} */
+#rowBack {
+  display: none;
+}
+
+.btn btn-primary {
+  display: none;
+  margin: 45px;
+  margin-bottom: 50px;
+}
+
